@@ -12,7 +12,7 @@
 
 <br/>
 
-<img src="image/social-cover.png" alt="Portfolio Preview" width="720"/>
+<img src="image/cover.png" alt="Portfolio Preview" width="720"/>
 
 </div>
 
