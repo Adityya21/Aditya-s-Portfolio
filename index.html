@@ -973,7 +973,7 @@
         const journeyTimelineData = {
             hasStarted: false,
             startScroll: 0,
-            pageRange: 200
+            pageRange: 300
         };
 
         function updateJourneyTimeline() {
@@ -987,7 +987,7 @@
             const rect = journeyTimeline.getBoundingClientRect();
             const elementTop = rect.top + scrollY;
 
-            const triggerPoint = scrollY + windowHeight * 0.5;
+            const triggerPoint = scrollY + windowHeight * 0.85;
 
             if (!journeyTimelineData.hasStarted && triggerPoint >= elementTop) {
                 journeyTimelineData.hasStarted = true;
